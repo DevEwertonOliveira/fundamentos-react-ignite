@@ -7,6 +7,7 @@ Recomendado ter instalado
 - Docker compose
 
   Rode os seguintes comandos após baixar a aplicação
+  - ```docker compose up```
   - ```npm install```
   - ```npm run dev```
 
