@@ -1,8 +1,13 @@
-# React + Vite
+# Fundamentos react
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Utilizei o dockerfile e docker-compose para gerar um projeto em node na versão 18.18 pois não possuo em minha máquina.**
 
-Currently, two official plugins are available:
+Recomendado ter instalado 
+- Docker
+- Docker compose
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  Rode os seguintes comandos após baixar a aplicação
+  - ```npm install```
+  - ```npm run dev```
+
+
