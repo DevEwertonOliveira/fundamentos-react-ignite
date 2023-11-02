@@ -8,6 +8,8 @@ Recomendado ter instalado
 
   Rode os seguintes comandos após baixar a aplicação
   - ```docker compose up```
+  - ```docker compose exec app bash```(em outro terminal)
+  E em seguida rode os comandos abaixo caso não tenha a mesma versão do node
   - ```npm install```
   - ```npm run dev```
 
