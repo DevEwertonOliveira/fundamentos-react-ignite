@@ -5,7 +5,7 @@ import { Sidebar } from "./components/Sidebar"
 import styles from "./App.module.css"
 import "./global.css"
 
-console.log("oi")
+
 
 
 export function App() {
