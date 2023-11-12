@@ -1,13 +1,14 @@
 FROM node:18-slim
 
-WORKDIR /home/node/app/
+WORKDIR /app/
 
 COPY package*.json .
 
+RUN chown -R node:node /app
+USER node
+
 RUN npm install
 
-COPY public ./public
-COPY src ./src
-
+COPY . .  
 
 CMD ["npm","run", "dev"]
